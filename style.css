@@ -12212,8 +12212,7 @@ body, html {
   height: 100%;
 }
 
-.left-side,
-.right-side {
+.left-side {
   height: 100%;
   padding: 0;
 }
@@ -12226,13 +12225,20 @@ body, html {
 
 .right-side {
   display: flex;
-  align-items: center;
   justify-content: center;
+}
+
+.margin-top-sign {
+  margin-top: 400px;
+}
+
+.margin-top-form {
+  margin-top: 50px;
 }
 
 .custom-form {
   max-width: 100%;
-  width: 300px; /* Ajustez la largeur maximale selon vos besoins */
+  width: 50%; /* Ajustez la largeur maximale selon vos besoins */
 }
 
 .custom-form .form-floating {
@@ -12249,7 +12255,7 @@ body, html {
 }
 
 .bg-dark-alpha {
-  background-color: rgba(44, 62, 80, 0.5); /* Ajustez la transparence en ajustant le dernier nombre (0.5 ici) */
+  background-color: rgba(44, 62, 80, 0.4); /* Ajustez la transparence en ajustant le dernier nombre (0.5 ici) */
 }
 
 .custom-big-img {
@@ -12271,9 +12277,9 @@ body, html {
 
 .custom-banner-form {
   position: absolute;
-  bottom: 0;
+  bottom: 50px;
   left: 50%;
-  transform: translateX(-60%);
+  transform: translateX(-50%);
   width: 100%;
   max-width: 600px; 
   min-width: 300px;
